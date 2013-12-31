@@ -15,3 +15,5 @@ post_fields:
   - picture
   - link
   - created_time
+
+cache_sec_duration: 10800

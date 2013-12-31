@@ -1,6 +1,8 @@
 require 'json'
 require 'yaml'
 require 'koala'
+require 'redis'
+require './lib/redisify.rb'
 require './api/app-main.rb'
 
 class Hash

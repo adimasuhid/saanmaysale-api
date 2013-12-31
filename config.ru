@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
-require 'json'
 require './api/app-api.rb'
 require './app.rb'
 

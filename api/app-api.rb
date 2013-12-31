@@ -4,4 +4,9 @@ before do
 end
 
 get '/' do
+  Redisify.recover_cache("data", $config.cache_sec_duration) do
+    miner = Miner.new
+    miner.mine
+    miner.data.to_json
+  end
 end
