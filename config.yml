@@ -1,0 +1,17 @@
+app_api_key: "307020496060616"
+app_secret: "0d8ab0d255846d0b6ddf2bed222dcad9"
+domain: "http://localhost:3000"
+
+keywords:
+  - sale
+  - discount
+
+page_id: "345882382104402"
+
+post_fields:
+  - from
+  - name
+  - message
+  - picture
+  - link
+  - created_time
