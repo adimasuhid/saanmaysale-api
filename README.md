@@ -1,4 +1,4 @@
-miner-api
-=========
+saanmaysale-api
+===============
 
-Simple Facebook Miner API Template
+SaanMaySale API via Miner-api Template
