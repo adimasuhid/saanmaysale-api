@@ -1,8 +1,9 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
-require './api/app-api.rb'
 require './app.rb'
+require './lib/redisify.rb'
+require './api/app-api.rb'
 
 set :environment, :development
 set :run, false
